@@ -7,7 +7,7 @@
     ob_clean();
     error_reporting(E_ALL);
     ob_start();
-    $pdf = new TCPDF('L', 'mm', 'A3', true, 'UTF-8');
+    $pdf = new TCPDF('L', 'mm', 'A4', true, 'UTF-8');
     $pdf->setPrintHeader(false);
     $pdf->setPrintFooter(false);
     $pdf->SetAuthor('Кутушев Эльдар ПИ-319');
